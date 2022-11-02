@@ -1,11 +1,10 @@
 function check(){
     let num1 = parseInt(document.getElementById('num1').value);
-    let num2 = parseInt(document.getElementById('num2').value);
 
-    if(num1 > num2){
-        document.getElementById('big').innerHTML = "number1 (" + num1 +")";
+    if(num1%2==0){
+        document.getElementById('big').innerHTML= num1 +" is even";
     }
     else{
-        document.getElementById('big').innerHTML = "number2 (" + num2 + ")";
+        document.getElementById('big').innerHTML=num1 +" is odd";
     }
 }
