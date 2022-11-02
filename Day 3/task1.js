@@ -9,11 +9,11 @@ function check(){
 
     }
     if(str==reverse){
-        document.getElementById('big').innerHTML= reverse + " is a palindrome";
+        document.getElementById('big').innerHTML= "(" + reverse + ")" + " is a palindrome";
 
     }
     else{
-        document.getElementById('big').innerHTML= reverse + " is not a palindrome";
+        document.getElementById('big').innerHTML= "(" + reverse + ")" + " is not a palindrome";
         ;
     }
 
