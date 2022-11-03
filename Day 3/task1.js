@@ -14,7 +14,6 @@ function check(){
     }
     else{
         document.getElementById('big').innerHTML= "(" + reverse + ")" + " is not a palindrome";
-        ;
     }
 
    

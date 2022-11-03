@@ -1,6 +1,6 @@
 function check(){
     let string = document.getElementById('string').value;
-    let count ="";
+    let count=0;
     let nospace= "";
     for(let i=0;i<string.length;i++){
         if(string[i]==" "){
