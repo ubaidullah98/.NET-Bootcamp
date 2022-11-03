@@ -1,10 +1,13 @@
-let fruit = ["banana","apple","pineapple","mango","pomegranate"];
+function loop(){
+    result = ''
+    input1 = document.getElementById('input1').value;
+    input2 = document.getElementById('input2').value;
 
-let fruitname ='';
+    for(let i=input1;i<=input2;i++){
 
-for(let i=0;i<fruit.length;i++){
-   fruitname += fruit[i]+ " ";
-  
+        result += i + " ";
+
+    }
+
+    document.getElementById('result').innerHTML = result;
 }
-
-document.getElementById('fruitname').innerHTML = fruitname;
